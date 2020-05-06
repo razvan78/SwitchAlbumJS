@@ -7,7 +7,8 @@ let fs = require('fs');
 //validate the source folder
 const sourceFolder = process.argv[2];
 if (!sourceFolder || !fs.existsSync(sourceFolder)) {
-    consolelog('The source folder is invalid');
+    console.log(sourceFolder);
+    console.log('The source folder is invalid');
     process.exit();
 }
 //validate the destination folder
