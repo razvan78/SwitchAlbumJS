@@ -2,8 +2,9 @@
 # SwitchAlbumJS RO
 
 Aplicatia aceasta va lua toate pozele si clipurile facute de nintendo si le va pune intr-un singur loc
+Dupa ce descarcati albumul de pe cardul SD din nintendo pe PC rulati scriptul
 
-ca sa folositi aplicatia aveti nevoie de Node.js https://nodejs.org/en/download/ (eu folosesc 6.9.0 dar ar trebui sa mearga si cu alte versiuni)
+Ca sa folositi aplicatia aveti nevoie de Node.js https://nodejs.org/en/download/ (eu folosesc 6.9.0 dar ar trebui sa mearga si cu alte versiuni)
 
 Cum sa folositi scriptul :
 In windows mergi in locul in care ai descarcat albumMerge.js, Shift+Right click in folder, nu pe fisier -> Open PowerShell window here 
