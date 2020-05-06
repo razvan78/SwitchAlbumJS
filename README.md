@@ -8,7 +8,7 @@ usage :
 On windows go to the directory where you downloaded albumMerge.js, Shift+Right click in that folder -> Open PowerShell window here 
 Type this in powershell
 
-`node ./albumMerge.js sourceFolder destinationFolder`
+`node .\albumMerge.js sourceFolder destinationFolder`
 
 example: `node .\albumMerge.js D:\Album D:\Destination`
 
