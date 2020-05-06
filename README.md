@@ -2,7 +2,7 @@
 
 This app will take all your pictures and send them to a destination folder, no subfolders added.
 
-To user it you will need node (I used 6.9.0 but should work with other versions)
+To use it you will need node (I used 6.9.0 but should work with other versions)
 
 usage :
 `node ./albumMerge.js sourceFolder destinationFolder`
