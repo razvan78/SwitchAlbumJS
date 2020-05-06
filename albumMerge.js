@@ -2,7 +2,7 @@
 //node and the name of the script
 // so the third argument is the location of the folder
 // the fourth argument is option and represents the destionation folder
-//if the destionation is not specified then tthe default is 'OnePlace' folder from desktop
+//if the destionation is not specified then the default is 'AFolder' folder from desktop
 let fs = require('fs');
 //validate the source folder
 const sourceFolder = process.argv[2];
@@ -14,7 +14,7 @@ if (!sourceFolder || !fs.existsSync(sourceFolder)) {
 //validate the destination folder
 let destionationFolder = process.argv[3];
 if (!destionationFolder) {
-    destionationFolder = require('path').join(require('os').homedir(), 'Desktop') + '\\OnePlace'
+    destionationFolder = require('path').join(require('os').homedir(), 'Desktop') + '\\AFolder'
 }
 if (!fs.existsSync(destionationFolder)) {
     fs.mkdirSync(destionationFolder);
